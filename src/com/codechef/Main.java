@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 	/*
 	custom exception in bank transaction:
+	if the user will withdraw amount less than 1000 it will show an exception which is defined
 	 */
 Scanner sc = new Scanner(System.in);
 Transaction t1 = new Transaction();
